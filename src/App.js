@@ -1,8 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import Perfumes from './components/perfumes/Perfumes';
+
 
 function App() {
-  return <h1>Hola mundo</h1>;
+  return(
+  <>
+  <Navbar/>
+  <Perfumes/>
+  </>
+  )
 }
 
 export default App;
